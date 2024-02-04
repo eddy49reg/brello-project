@@ -1,7 +1,6 @@
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-idiomatic-order",
-    "stylelint-config-prettier"
-  ]
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "media-feature-range-notation": "prefix"
+  }
 }
